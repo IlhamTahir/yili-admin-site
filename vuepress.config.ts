@@ -4,6 +4,7 @@ import {defaultTheme, defineUserConfig} from "vuepress";
 export default defineUserConfig({
     title: 'YiliAdmin',
     description: '一个强大的中台前端解决方案',
+    base: '/yili-admin-site/',
     theme: defaultTheme({
         navbar: [
             {text: '指南', link: '/guide/'}
